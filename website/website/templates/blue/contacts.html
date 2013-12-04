@@ -1,0 +1,43 @@
+{% extends "inc/base.html" %}
+{% load staticfiles %}
+{% block content %}
+	<h1>Contatti</h1>
+	<div class="main_content">
+		<div class="description_container description_container_top no_padding_bottom">
+			<span class="more_readable_container">
+				Se desideri informazioni per la risoluzione di un problema, prenderemo in esame la tua richiesta e risponderemo nel più breve tempo possibile.
+			</span>
+		</div>
+		<div class="data_external_container">
+			<div class="data_image_container">
+				<img src="{% static "img/icons/icon_contatti.png" %}" alt="Image">
+			</div>
+			<div class="data_info_container">
+				<div class="data_info_list_container data_info_list_conatiner_first">
+					<span class="data_info_label">
+						Email:
+					</span>
+					<span class="data_info_method">
+						<a href="mailto:info@entpy.com">info@entpy.com</a>
+					</span>
+				</div>
+				<div class="data_info_list_container">
+					<span class="data_info_label">
+						Social network:
+					</span>
+					<span class="data_info_method contact_us_method">
+						<a href="#">github</a>
+					</span>
+					<span>|</span>
+					<span class="data_info_method contact_us_method">
+						<a href="#">Facebook</a>
+					</span>
+					<span>|</span>
+					<span class="data_info_method contact_us_method">
+						<a href="#">Twitter</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

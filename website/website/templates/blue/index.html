@@ -1,4 +1,39 @@
 {% extends "inc/base.html" %}
+{% load staticfiles %}
 {% block content %}
-	<b style="color: red;">This is a fucking test</b>
+	<h1>Chi siamo</h1>
+	<div class="main_content">
+		<h2>Sviluppo di software per web e mobile</h2>
+		<div class="image_conainer">
+			<div class="image_single_block">
+				<figure>
+					<img src="{% static "img/icons/icon_internet.png" %}" alt="Image">
+					<figcaption>Internet</figcaption>
+				</figure>
+			</div>
+			<div class="image_single_block">
+				<figure>
+					<img src="{% static "img/icons/icon_server.png" %}" alt="Image">
+					<figcaption>Server</figcaption>
+				</figure>
+			</div>
+			<div class="image_single_block">
+				<figure>
+					<img src="{% static "img/icons/icon_security.png" %}" alt="Image">
+					<figcaption>Security</figcaption>
+				</figure>
+			</div>
+			<div class="image_single_block">
+				<figure>
+					<img src="{% static "img/icons/icon_multiDevice.png" %}" alt="Image">
+					<figcaption>Multi device</figcaption>
+				</figure>
+			</div>
+		</div>
+		<div class="description_container">
+			<span class="more_readable_container">
+				Entpy è una software house di Torino, l’obiettivo è quello di fornire soluzioni semplici a problemi complessi, curando in dettaglio tutti i particolari. In sostanza inquadriamo il problema e lo risolviamo.<br />Non ci occupiamo di svolgere un progetto in tempi fulminei, ma ci impegnamo nel farlo nel miglior modo possibile e con qualità. Con riferimento a questo, Entpy si adatta ad ogni tipo di ambito, rendendo possibile la comunicazione partendo dai singoli privati fino alle grandi aziente.
+			</span>
+		</div>
+	</div>
 {% endblock %}

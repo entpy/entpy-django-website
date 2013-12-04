@@ -19,10 +19,10 @@
 
 		<!-- javascript loading -->
 		<!--[if lt IE 9]>
-			<script src="/js/html5shiv.js"></script>
+			<script src="{% static "js/html5shiv.js" %}"></script>
 		<![endif]-->
-		<script src="static/js/modernizr.custom.19502.js"></script>
-		{% endblock %}
+		<script src="{% static "js/modernizr.custom.19502.js" %}"></script>
+		{% endblock head %}
 	</head>
 	<body>
 		<header>
@@ -30,10 +30,10 @@
 				{% block navigation %}
 				<div class="logo_section page">
 					<div class="logo_container">
-						<img src="img/icons/logo.png" alt="Image">
+						<img src="{% static "img/icons/logo.png" %}" alt="Image">
 					</div>
 					<div class="entropy_container">
-						<img src="img/layout/layout_entropy.png" alt="Image">
+						<img src="{% static "img/layout/layout_entropy.png" %}" alt="Image">
 					</div>
 				</div>
 				<div class="navigation_section">
@@ -41,29 +41,29 @@
 						<nav>
 							<ul class="navigation_list">
 								<li>
-									<a href="index.html">Chi siamo</a>
+									<a href="/index/">Chi siamo</a>
 								</li>
 								<li>
-									<a href="philosophy.html">Filosofia</a>
+									<a href="/philosophy/">Filosofia</a>
 								</li>
 								<li>
-									<a href="contacts.html">Contatti</a>
+									<a href="/contacts/">Contatti</a>
 								</li>
 								<li>
-									<a href="work_with_us.html">Lavora con noi</a>
+									<a href="/work_with_us/">Lavora con noi</a>
 								</li>
 							</ul>
 						</nav>
 					</div>
 				</div>
-				{% endblock %}
+				{% endblock navigation %}
 			</div>
 		</header>
 		<section>
 			<div class="main_content_section">
 				<div class="main_content_container page">
 					<article>
-						 {% block content %}{% endblock %}
+						 {% block content %}{% endblock content %}
 					</article>
 				</div>
 			</div>
@@ -104,8 +104,8 @@
 							</span>
 						</li>
 					</ul>
-				</div>	
-				{% endblock %}
+				</div>
+				{% endblock footer %}
 			</div>	
 		</footer>
 	</body>

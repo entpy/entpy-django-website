@@ -1,0 +1,27 @@
+{% extends "inc/base.html" %}
+{% load staticfiles %}
+{% block content %}
+	<h1>Lavora con noi</h1>
+	<div class="main_content">
+		<div class="description_container description_container_top no_padding_bottom">
+			<span class="more_readable_container">
+				Sei interessato a lavorare con noi e hai dei servizi da offrirci? Se condividi anche tu la nostro <a href="/philosophy/">filosofia</a> mandaci un curriculum via E-mail.
+			</span>
+		</div>
+		<div class="data_external_container">
+			<div class="data_image_container">
+				<img src="{% static "img/icons/icon_mail.png" %}" alt="Image">
+			</div>
+			<div class="data_info_container">
+				<div class="data_info_list_container">
+					<span class="data_info_label">
+						Email:
+					</span>
+					<span class="data_info_method">
+						<a href="mailto:info@entpy.com">info@entpy.com</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
