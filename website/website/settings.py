@@ -23,18 +23,25 @@ PROJECT_NAME = 'website'
 SECRET_KEY = 'rlkw#_emt=s1ndhpsl$*l8duckx@784zde15&&v!^ta)xx6oni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = True
+DEBUG = False
+#DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-#ALLOWED_HOSTS = [('127.0.0.1')]
+ALLOWED_HOSTS = [
+	'www.entpy.com',
+	'entpy.com'
+]
 
-STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    'django.contrib.staticfiles.finders.DefaultStorageFinder',
-)
+if (DEBUG == True)
+	TEMPLATE_DEBUG = True
+	ALLOWED_HOSTS = []
+
+	STATICFILES_FINDERS = (
+	    'django.contrib.staticfiles.finders.FileSystemFinder',
+	    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+	    #'django.contrib.staticfiles.finders.DefaultStorageFinder',
+	)
 
 # Application definition
 
@@ -47,7 +54,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 )
 
-
+"""
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,6 +63,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
+"""
 
 ROOT_URLCONF = PROJECT_NAME + '.urls'
 
@@ -76,7 +84,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'it-it'
 
 TIME_ZONE = 'UTC'
 
@@ -99,6 +107,7 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_DIR, '../project_static/' + TEMPLATE_NAME),
 )
 
+STATIC_ROOT = os.path.join(PROJECT_NAME, '../static_resources/' + TEMPLATE_NAME)
 #STATIC_ROOT = BASE_DIR + PROJECT_NAME + '/static/' + TEMPLATE_NAME + ''
 
 # Static files (CSS, JavaScript, Images)
