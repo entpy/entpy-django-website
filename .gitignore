@@ -1,5 +1,7 @@
 # ignore all in the tree
 *
 !.gitignore
+!.LICENSE
+!.README.md
 !website/
 !website/**/*
