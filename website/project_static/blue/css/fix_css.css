@@ -14,4 +14,6 @@
 /* }}} */
 
 /* footer style {{{ */
+.footer_list .list_element_label { display: inline-block; margin-bottom: 0.3em; width: 100%; }
+.colon_container { display: none; }
 /* }}} */
