@@ -28,11 +28,12 @@ DEBUG = False #True | False
 TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = [
-	'.entpy.com'
+	'entpy.com',
 ]
 
+"""
 # debug mode settings
-if (DEBUG == True)
+if (DEBUG == True):
 	TEMPLATE_DEBUG = True
 	ALLOWED_HOSTS = []
 
@@ -45,8 +46,8 @@ if (DEBUG == True)
 	INSTALLED_APPS = (
 		'django.contrib.staticfiles',
 	)
-
 """
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -55,9 +56,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 )
-"""
 
-"""
+
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -66,7 +66,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
-"""
+
 
 ROOT_URLCONF = PROJECT_NAME + '.urls'
 
