@@ -23,7 +23,7 @@ PROJECT_NAME = 'website'
 SECRET_KEY = 'rlkw#_emt=s1ndhpsl$*l8duckx@784zde15&&v!^ta)xx6oni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #True | False
+DEBUG = True #True | False
 
 TEMPLATE_DEBUG = False
 

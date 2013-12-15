@@ -2,22 +2,35 @@ body { font: normal 100%/1 Helvetica, Arial, sans-serif; }
 body, .footer_container { background-color: #1e4451;  }
 .more_readable_container { letter-spacing: 0.01em; line-height: 1.6; }
 
-/* header style */
+/* header style {{{ */
+.header {
+	box-shadow: 0 0 5px 0px #1E4451;
+	position: relative;
+	z-index: 2;
+}
 .navigation_section { background-color: #83c61a; }
-.navigation_list li a { color: #fff; }
-.navigation_list li a:hover { color: #fff; font-weight: bold; }
+.navigation_list li a { color: #FBFBFB; font-weight: bold; text-decoration: none; }
 
-/* main content style */
+.navigation_list li a:hover,
+.navigation_list li.index_menu_item.index_menu_item_active a,
+.navigation_list li.philosophy_menu_item.philosophy_menu_item_active a,
+.navigation_list li.contacts_menu_item.contacts_menu_item_active a,
+.navigation_list li.work_with_us_menu_item.work_with_us_menu_item_active a { text-decoration: underline; }
+/* header style }}} */
+
+/* main content style {{{ */
 .main_content_container article h1 { color: #78B071; }
 .main_content_container article h2 { color: #079cc4; }
 .main_content_section { background-color: #079cc4; }
-.main_content_container { background-color: #fff; }
+.main_content_container { background-color: #FBFBFB; box-shadow: -1px 1px 5px 0px #1E4451; }
 .image_single_block figure figcaption { color: #079cc4; }
 .description_container > span { color: #333; }
 .no_padding_bottom { padding-bottom: 0!important; }
+/* main content style }}} */
 
-/* footer style */
+/* footer style {{{ */
 .footer_list span { color: #0e82a2; }
 .footer_list .email_list_element a { color: #0e82a2; }
 .footer_list .list_element_label { font-weight: bold; }
 .footer_list .list_element_top { display: none; }
+/* footer style }}} */

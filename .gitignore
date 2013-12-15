@@ -4,4 +4,8 @@
 !.LICENSE
 !.README.md
 !website/
+!website/project_static/
+!website/project_static/**/*
+!website/static_resources/
+!website/static_resources/**/*
 !website/**/*

@@ -7,6 +7,8 @@ class StaticView(TemplateView):
 	def get(self, request, page, *args, **kwargs):
 		self.template_name = page + '.html'
 		response = super(StaticView, self).get(request, *args, **kwargs)
+		# to highlight the active menu
+		response.context_data = {"active_item": page + "_menu_item_active"}
 		try:
 			return response.render()
 		except TemplateDoesNotExist:

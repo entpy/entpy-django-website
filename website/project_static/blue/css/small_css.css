@@ -6,6 +6,13 @@
 .entropy_container { display: none; }
 .navigation_list { text-align: center; }
 .navigation_list li { padding: 0.4em 0; }
+
+.navigation_list li a { text-decoration: underline; }
+.navigation_list li a:hover,
+.navigation_list li.index_menu_item.index_menu_item_active a,
+.navigation_list li.philosophy_menu_item.philosophy_menu_item_active a,
+.navigation_list li.contacts_menu_item.contacts_menu_item_active a,
+.navigation_list li.work_with_us_menu_item.work_with_us_menu_item_active a { color: #1E4451; font-weight: bold; }
 /* }}} */
 
 /* main content style {{{ */
