@@ -8,4 +8,5 @@
 !website/project_static/**/*
 !website/static_resources/
 !website/static_resources/**/*
+!website/media/
 !website/**/*
