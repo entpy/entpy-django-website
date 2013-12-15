@@ -23,12 +23,12 @@ PROJECT_NAME = 'website'
 SECRET_KEY = 'rlkw#_emt=s1ndhpsl$*l8duckx@784zde15&&v!^ta)xx6oni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True #True | False
+DEBUG = False #True | False
 
 TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = [
-	'entpy.com',
+	'.entpy.com',
 ]
 
 """

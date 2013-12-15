@@ -35,6 +35,7 @@
 .description_container_top { padding-top: 0; }
 
 /* contact us block */
+.data_external_container { margin-top: 3em; }
 .data_external_container .data_image_container { text-align: center; }
 .data_external_container .data_info_label { display: inline-block; font-weight: bold; margin-bottom: 0.3em; width: 100%; text-align: center; }
 .data_external_container .data_info_method { display: inline-block; width: 100%; text-align: center; }

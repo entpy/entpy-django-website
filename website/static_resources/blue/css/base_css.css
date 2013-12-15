@@ -8,6 +8,7 @@ body, .footer_container { background-color: #1e4451;  }
 	position: relative;
 	z-index: 2;
 }
+.logo_section .logo_container a { color: transparent; }
 .navigation_section { background-color: #83c61a; }
 .navigation_list li a { color: #FBFBFB; font-weight: bold; text-decoration: none; }
 
