@@ -117,3 +117,12 @@ STATIC_ROOT = os.path.join(PROJECT_NAME, '../static_resources/' + TEMPLATE_NAME)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# loading local settings
+try:
+    LOCAL_SETTINGS
+except NameError:
+    try:
+        from local_settings import *
+    except ImportError:
+        pass

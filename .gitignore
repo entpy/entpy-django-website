@@ -10,3 +10,6 @@
 !website/static_resources/**/*
 !website/media/
 !website/**/*
+*.swp
+*.pyc
+website/website/local_settings_example.py
