@@ -22,11 +22,14 @@ body, .footer_container { background-color: #1e4451;  }
 /* main content style {{{ */
 .main_content_container article h1 { color: #78B071; }
 .main_content_container article h2 { color: #079cc4; }
+.main_content_container article a { color: #079cc4; }
+.main_content_container article a:hover { color: #1E4451; }
 .main_content_section { background-color: #079cc4; }
 .main_content_container { background-color: #FBFBFB; box-shadow: 0px 1px 5px 0px #1E4451; }
 .image_single_block figure figcaption { color: #079cc4; }
 .description_container > span { color: #333; }
 .no_padding_bottom { padding-bottom: 0!important; }
+.email_container { font-weight: bold; }
 /* main content style }}} */
 
 /* footer style {{{ */
