@@ -8,7 +8,9 @@
 		{% block head %}
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Entpy Software House</title>
+		{% block title %}
+		<title>Software House | Sviluppo di software | Entpy</title>
+		{% endblock title %}
 		<meta name="description" content="Creiamo software">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="favicon.ico" />
@@ -109,8 +111,8 @@
 							</span>
 						</li>
 					</ul>
+					{% endblock footer %}
 				</div>
-				{% endblock footer %}
 			</div>	
 		</footer>
 	</body>
