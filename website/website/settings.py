@@ -24,39 +24,16 @@ SECRET_KEY = 'rlkw#_emt=s1ndhpsl$*l8duckx@784zde15&&v!^ta)xx6oni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #True | False
-
 TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = [
-	'.entpy.com',
-]
-
-"""
-# debug mode settings
-if (DEBUG == True):
-	TEMPLATE_DEBUG = True
-	ALLOWED_HOSTS = []
-
-	STATICFILES_FINDERS = (
-		'django.contrib.staticfiles.finders.FileSystemFinder',
-		'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-		#'django.contrib.staticfiles.finders.DefaultStorageFinder',
-	)
-
-	INSTALLED_APPS = (
-		'django.contrib.staticfiles',
-	)
-"""
-
 INSTALLED_APPS = (
-    'django.contrib.admin',
-    'django.contrib.auth',
+    # 'django.contrib.admin',
+    # 'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    # 'django.contrib.messages',
+    # 'django.contrib.staticfiles',
 )
-
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
