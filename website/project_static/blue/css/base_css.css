@@ -4,7 +4,7 @@ body, .footer_container { background-color: #1e4451;  }
 
 /* header style {{{ */
 .header {
-	box-shadow: 0 0 5px 0px #1E4451;
+	box-shadow: 0 0 1px 0px #1E4451;
 	position: relative;
 	z-index: 2;
 }
@@ -25,7 +25,7 @@ body, .footer_container { background-color: #1e4451;  }
 .main_content_container article a { color: #079cc4; }
 .main_content_container article a:hover { color: #1E4451; }
 .main_content_section { background-color: #079cc4; }
-.main_content_container { background-color: #FBFBFB; box-shadow: 0px 1px 5px 0px #1E4451; }
+.main_content_container { background-color: #FBFBFB; box-shadow: 0px 0px 1px 0px #1E4451; }
 .image_single_block figure figcaption { color: #079cc4; }
 .description_container > span { color: #333; }
 .no_padding_bottom { padding-bottom: 0!important; }
