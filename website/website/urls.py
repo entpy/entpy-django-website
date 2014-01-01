@@ -10,6 +10,5 @@ urlpatterns = patterns('',
 	# url(r'^blog/', include('blog.urls')),
 
 	url(r'^$', StaticView.as_view(), {'page': 'index'}), # home page
-	url(r'^robots\.txt$', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
 	url(r'^(?P<page>[^/\.]+).*$', StaticView.as_view()),
 )# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
