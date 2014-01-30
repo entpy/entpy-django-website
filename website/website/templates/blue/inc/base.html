@@ -8,10 +8,15 @@
 		{% block head %}
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
 		{% block title %}
 		<title>Software House | Sviluppo di software | Entpy</title>
 		{% endblock title %}
-		<meta name="description" content="Creiamo software">
+
+		{% block description %}
+		<meta name="description" content="Entpy è una software house di Torino. Il nostro obiettivo è quello di fornire soluzioni semplici a problemi complessi.">
+		{% endblock description %}
+
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="favicon.ico" />
 
@@ -36,13 +41,14 @@
 				<div class="logo_section page">
 					<div class="logo_container">
 						<a href="/index">
-							<img src="{% static "img/icons/logo.png" %}" alt="Image">
+							<img src="{% static "img/icons/logo.png" %}" alt="Entpy Software House">
 						</a>
 					</div>
 					<div class="entropy_container">
-						<img src="{% static "img/layout/layout_entropy.png" %}" alt="Image">
+						<img src="{% static "img/layout/layout_entropy.png" %}" alt="Entpy Software House">
 					</div>
 				</div>
+				<!-- navigation menu -->
 				<div class="navigation_section">
 					<div class="page">
 						<nav>
