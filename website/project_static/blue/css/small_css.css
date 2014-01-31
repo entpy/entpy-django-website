@@ -16,7 +16,7 @@
 /* }}} */
 
 /* main content style {{{ */
-.main_content_container article h1 { border-bottom: 0.08em dotted; border-top: 0.25em solid; font-size: 1.5em; margin-bottom: 1em; padding: 0.4em 0; text-align: center; }
+.main_content_container article h1 { border-bottom: 0.08em dotted; font-size: 1.5em; margin-bottom: 1em; padding: 0.4em 0; text-align: center; }
 .main_content_container article h2 { font-size: 1em; padding: 0 5%; text-align: center; width: 90%; }
 
 /* images block */
