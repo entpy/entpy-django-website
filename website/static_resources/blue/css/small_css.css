@@ -2,7 +2,7 @@
 
 /* header style {{{ */
 .logo_container { margin: 1em 0; text-align: center; }
-.logo_container > img { width: 70%; }
+.logo_container img { width: 200px; }
 .entropy_container { display: none; }
 .navigation_list { text-align: center; }
 .navigation_list li { padding: 0.4em 0; }

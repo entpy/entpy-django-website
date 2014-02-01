@@ -1,5 +1,4 @@
 /* main css to loading custom CSS */
-@import url(base_css.css) screen; /* common css layout */
 
 @import url(small_css.css) screen and (max-width: 470px); /* small screen css layout */
 

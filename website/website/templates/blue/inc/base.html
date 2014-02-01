@@ -24,9 +24,15 @@
 
 		<!-- CSS common style loading -->
 		<link rel="stylesheet" href="{% static "css/reset.css" %}">
+		<link rel="stylesheet" href="{% static "css/base_css.css" %}">
 		<link rel="stylesheet" href="{% static "css/main.css" %}">
 		<!--[if lt IE 9]>
 			<link rel="stylesheet" type="text/css" href="{% static "css/big_css.css" %}" />
+		<![endif]-->
+
+		<!-- CSS fix style sheets -->
+		<!--[if lt IE 8]>
+			<link rel="stylesheet" type="text/css" href="{% static "css/ie7_fix.css" %}" />
 		<![endif]-->
 
 		<!-- javascript loading -->
@@ -47,9 +53,7 @@
 				{% block navigation %}
 				<div class="logo_section page">
 					<div class="logo_container">
-						<a href="/index">
-							<img src="{% static "img/icons/logo.png" %}" alt="Entpy Software House">
-						</a>
+						<a href="/index"><img src="{% static "img/icons/logo.png" %}" alt="Entpy Software House"></a>
 					</div>
 					<div class="entropy_container">
 						<img src="{% static "img/layout/layout_entropy.png" %}" alt="Entpy Software House">

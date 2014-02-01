@@ -1,7 +1,7 @@
 body { font: normal 100%/1 Helvetica, Arial, sans-serif; }
 body, .footer_container { background-color: #1e4451;  }
 .more_readable_container { letter-spacing: 0.01em; line-height: 1.6; }
-b { font-weight: bold; }
+b, .bold { font-weight: bold; }
 ul.ul_styled {
 	list-style: disc inside none;
 	margin: 15px 0;
