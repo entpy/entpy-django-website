@@ -7,7 +7,6 @@
 .navigation_list { text-align: center; }
 .navigation_list li { padding: 0.4em 0; }
 
-.navigation_list li a { text-decoration: underline; }
 .navigation_list li a:hover,
 .navigation_list li.index_menu_item.index_menu_item_active a,
 .navigation_list li.philosophy_menu_item.philosophy_menu_item_active a,
