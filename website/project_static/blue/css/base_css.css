@@ -36,7 +36,7 @@ ul.ul_styled li {
 .main_content_section { background-color: #079cc4; }
 .main_content_container { background-color: #FBFBFB; box-shadow: 0px 0px 1px 0px #1E4451; }
 .image_single_block figure figcaption { color: #079cc4; }
-.description_container > span { color: #333; }
+.description_container > spana, .description_container > div { color: #333; }
 .no_padding_bottom { padding-bottom: 0!important; }
 .email_container { font-weight: bold; }
 /* main content style }}} */
