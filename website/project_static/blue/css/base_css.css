@@ -1,6 +1,6 @@
 body { font: normal 100%/1 Helvetica, Arial, sans-serif; }
 body, .footer_container { background-color: #1e4451;  }
-.more_readable_container { letter-spacing: 0.01em; line-height: 1.6; }
+.more_readable_container { color: #333; letter-spacing: 0.01em; line-height: 1.6; }
 b, .bold { font-weight: bold; }
 ul.ul_styled {
 	list-style: disc inside none;
@@ -36,7 +36,6 @@ ul.ul_styled li {
 .main_content_section { background-color: #079cc4; }
 .main_content_container { background-color: #FBFBFB; box-shadow: 0px 0px 1px 0px #1E4451; }
 .image_single_block figure figcaption { color: #079cc4; }
-.description_container > spana, .description_container > div { color: #333; }
 .no_padding_bottom { padding-bottom: 0!important; }
 .email_container { font-weight: bold; }
 /* main content style }}} */
