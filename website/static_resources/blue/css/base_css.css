@@ -3,12 +3,13 @@ body, .footer_container { background-color: #1e4451;  }
 .more_readable_container { color: #333; letter-spacing: 0.01em; line-height: 1.6; }
 b, .bold { font-weight: bold; }
 ul.ul_styled {
-	list-style: disc inside none;
+	list-style: disc outside none;
 	margin: 15px 0;
+	padding-left: 15px;
 }
 
 ul.ul_styled li {
-	margin: 3px 0px;
+	margin: 7px 0px;
 }
 
 /* header style {{{ */
