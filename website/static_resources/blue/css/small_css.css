@@ -1,21 +1,24 @@
 /* small screen style */
 
 /* header style {{{ */
+.header { box-shadow: none;  }
 .logo_container { margin: 1em 0; text-align: center; }
 .logo_container img { width: 200px; }
 .entropy_container { display: none; }
+
+.navigation_section { background-color: transparent; border-top: 0.3em solid  #079CC4; padding: 0.5em 0; }
 .navigation_list { text-align: center; }
 .navigation_list li { padding: 0.4em 0; }
-
 .navigation_list li a:hover,
 .navigation_list li.index_menu_item.index_menu_item_active a,
 .navigation_list li.philosophy_menu_item.philosophy_menu_item_active a,
 .navigation_list li.contacts_menu_item.contacts_menu_item_active a,
-.navigation_list li.work_with_us_menu_item.work_with_us_menu_item_active a { color: #1E4451; font-weight: bold; }
+.navigation_list li.work_with_us_menu_item.work_with_us_menu_item_active a {  }
+.navigation_list li a { font-weight: normal; }
 /* }}} */
 
 /* main content style {{{ */
-.main_content_container article h1 { border-bottom: 0.08em dotted; font-size: 1.5em; margin-bottom: 1em; padding: 0.4em 0; text-align: center; }
+.main_content_container article h1 { border-bottom: 0.08em solid; font-size: 1.5em; margin-bottom: 1em; padding: 0.9em 0 0.4em; text-align: center; }
 .main_content_container article h2 { font-size: 1em; padding: 0 5%; text-align: center; width: 90%; }
 
 /* images block */
