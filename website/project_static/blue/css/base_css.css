@@ -1,6 +1,6 @@
 body { font: normal 100%/1 Helvetica, Arial, sans-serif; }
 body, .footer_container { background-color: #1e4451;  }
-.more_readable_container { color: #333; letter-spacing: 0.01em; line-height: 1.6; }
+.more_readable_container { color: #333; letter-spacing: 0.01em; line-height: 1.9; }
 b, .bold { font-weight: bold; }
 ul.ul_styled {
 	list-style: disc outside none;
