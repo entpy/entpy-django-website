@@ -19,9 +19,6 @@ PROJECT_NAME = 'website'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'rlkw#_emt=s1ndhpsl$*l8duckx@784zde15&&v!^ta)xx6oni'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #True | False
 TEMPLATE_DEBUG = False
