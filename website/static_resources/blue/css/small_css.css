@@ -3,7 +3,7 @@
 /* header style {{{ */
 .header { box-shadow: none;  }
 .logo_container { margin: 1em 0; text-align: center; }
-.logo_container img { width: 200px; }
+.logo_container img { height: 3em; }
 .entropy_container { display: none; }
 
 .navigation_section { background-color: transparent; border-top: 0.3em solid  #079CC4; padding: 0.5em 0; }
