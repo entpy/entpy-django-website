@@ -1,2 +1,5 @@
+# R* entropy system
 User-agent: *
-Allow: /
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: http://www.entpy.com/sitemap.xml
