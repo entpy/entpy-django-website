@@ -47,11 +47,11 @@
 	</head>
 	<body>
 		<header>
-			<div class="header">
+			<div class="header" itemscope itemtype="http://schema.org/LocalBusiness">
 				{% block navigation %}
 				<div class="logo_section page">
 					<div class="logo_container">
-						<a href="/index"><img src="{% static "img/icons/logo.png" %}" alt="Entpy Software House"></a>
+						<a href="/index"><img itemprop="logo" src="{% static "img/icons/logo.png" %}" alt="Entpy Software House"></a>
 					</div>
 					<div class="entropy_container">
 						<img src="{% static "img/layout/layout_entropy.png" %}" alt="Entpy Software House">
@@ -63,16 +63,16 @@
 						<nav>
 							<ul class="navigation_list">
 								<li class="index_menu_item {{ active_item }}">
-									<a href="/index/"> Chi siamo</a>
+									<a itemprop="url" href="/index/"> Chi siamo</a>
 								</li>
 								<li class="philosophy_menu_item {{ active_item }}">
-									<a href="/philosophy/">Filosofia</a>
+									<a itemprop="url" href="/philosophy/">Filosofia</a>
 								</li>
 								<li class="contacts_menu_item {{ active_item }}">
-									<a href="/contacts/">Contatti</a>
+									<a itemprop="url" href="/contacts/">Contatti</a>
 								</li>
 								<li class="work_with_us_menu_item {{ active_item }}">
-									<a href="/work_with_us/">Lavora con noi</a>
+									<a itemprop="url" href="/work_with_us/">Lavora con noi</a>
 								</li>
 							</ul>
 						</nav>
@@ -113,7 +113,7 @@
 								Copyright<span class="colon_container">:</span>
 							</span>
 							<span class="list_element_value">
-								2014 Entpy Software
+								<small>2014 Entpy Software</small>
 							</span>
 						</li>
 						<!-- location info -->
