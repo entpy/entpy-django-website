@@ -1,0 +1,33 @@
+{% extends "inc/base.html" %}
+{% load staticfiles %}
+{% block title %}
+	<title>Software House | Lavora con noi | Entpy</title>
+{% endblock %}
+{% block description %}
+	<meta name="description" content="Desideri entrare a far parte di Entpy? Attualmente stiamo cercando nuove figure professionali da inserire nel nostro team.">
+{% endblock %}
+{% block content %}
+	<h1>Lavora con noi</h1>
+	<div class="main_content">
+		<div class="description_container description_container_top no_padding_bottom">
+			<span class="more_readable_container">
+				Sei interessato a lavorare con noi?<br />Attualmente stiamo cercando nuove figure professionali da inserire nel nostro team.<br/>Se condividi anche tu la nostra <a href="/filosofia/">filosofia</a> mandaci il tuo curriculum via Email.
+			</span>
+		</div>
+		<div class="data_external_container">
+			<div class="data_image_container">
+				<img src="{% static "img/icons/icon_mail.png" %}" alt="Lavora con noi">
+			</div>
+			<div class="data_info_container">
+				<div class="data_info_list_container">
+					<span class="data_info_label bold">
+						Email:
+					</span>
+					<span class="data_info_method email_container">
+						<a href="mailto:info@entpy.com">info@entpy.com</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
