@@ -12,6 +12,8 @@ ul.ul_styled li {
 	margin: 7px 0px;
 }
 
+.display_none { display: none; }
+
 /* header style {{{ */
 .header {
 	box-shadow: 0 0 1px 0px #1E4451;
@@ -24,21 +26,22 @@ ul.ul_styled li {
 
 .navigation_list li a:hover,
 .navigation_list li.index_menu_item.index_menu_item_active a,
-.navigation_list li.philosophy_menu_item.philosophy_menu_item_active a,
-.navigation_list li.contacts_menu_item.contacts_menu_item_active a,
-.navigation_list li.work_with_us_menu_item.work_with_us_menu_item_active a { text-decoration: underline; }
+.navigation_list li.philosophy_menu_item.filosofia_menu_item_active a,
+.navigation_list li.contacts_menu_item.contatti_menu_item_active a,
+.navigation_list li.work_with_us_menu_item.lavora-con-noi_menu_item_active a { text-decoration: underline; }
 /* header style }}} */
 
 /* main content style {{{ */
 .main_content_container article h1 { color: #78B071; }
 .main_content_container article h2 { color: #079cc4; }
-.main_content_container article a { color: #079cc4; }
-.main_content_container article a:hover { color: #1E4451; }
+.main_content_container article h3 { color: #079cc4; }
+.main_content_container article a, .image_conainer > .image_single_block a *, .text1 { color: #079cc4; }
+.main_content_container article a:hover, .image_conainer > .image_single_block a:hover * { color: #1E4451; text-decoration: underline; }
 .main_content_section { background-color: #079cc4; }
-.main_content_container { background-color: #FBFBFB; box-shadow: 0px 0px 1px 0px #1E4451; }
-.image_single_block figure figcaption { color: #079cc4; }
+.main_content_container { background-color: #efefef; box-shadow: 0px 0px 1px 0px #1E4451; }
 .no_padding_bottom { padding-bottom: 0!important; }
 .email_container { font-weight: bold; }
+.image_conainer > .image_single_block a, .image_conainer > .image_single_block a:hover { color: transparent;  }
 /* main content style }}} */
 
 /* footer style {{{ */
