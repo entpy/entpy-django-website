@@ -81,7 +81,7 @@ TEMPLATE_DIRS = [os.path.join(BASE_DIR, PROJECT_NAME + '/templates/' + TEMPLATE_
 
 # Static file directory path
 STATICFILES_DIRS = ( 
-    os.path.join(PROJECT_DIR, '../project_static/' + TEMPLATE_NAME),
+    os.path.join(PROJECT_DIR, '../static_resources/' + TEMPLATE_NAME),
 )
 
 STATIC_ROOT = os.path.join(PROJECT_NAME, '../static_resources/' + TEMPLATE_NAME)
