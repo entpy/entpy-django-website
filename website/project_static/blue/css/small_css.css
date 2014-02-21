@@ -44,7 +44,7 @@
 
 /* modello.html page {{{ */
 .block1 > .right { margin-bottom: 2em; }
-.block1 > .right h3 { border-bottom: 1px solid #808080; color: #079CC4; font-size: 1.2em; margin-bottom: 0.6em; padding-bottom: 0.4em; text-align: left; }
+.block1 > .right h3 { border-bottom: 1px solid #D7D7D7; color: #079CC4; font-size: 1.2em; margin-bottom: 0.6em; padding-bottom: 0.4em; text-align: left; }
 .block1 > .right h3 img { display: inline-block; margin-right: 0.3em; vertical-align: text-bottom; width: 20%; }
 .block1 > .right h3 span:last-child { vertical-align: text-top; }
 /* }}} */
