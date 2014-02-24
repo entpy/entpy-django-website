@@ -74,7 +74,7 @@ USE_TZ = True
 # Template
 
 # Current template name
-TEMPLATE_NAME = 'blue'
+TEMPLATE_NAME = 'default_template'
 
 # Template directory path
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, PROJECT_NAME + '/templates/' + TEMPLATE_NAME + '/')]
