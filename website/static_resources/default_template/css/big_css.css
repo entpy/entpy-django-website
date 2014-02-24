@@ -1,0 +1,46 @@
+/* medium/large screen style */
+.page { margin: 0 auto; width: 53.125em; } /* width: 850px; */
+.display_only_pc { display: inline-block; }
+
+/* header style {{{ */
+.logo_section .logo_container { display: table-cell; height: 5.625em; vertical-align: middle; width: 20%; }
+.logo_section .entropy_container { display: table-cell; text-align: right; vertical-align: middle; width: 80%; }
+.logo_container img { height: 3em; }
+.navigation_list { display: inline-block; height: 1.5625em; margin-top: 0.5625em; }
+.navigation_list > li { float: left; text-align: center; width: 10em; }
+.navigation_list > li a { text-decoration: none; }
+/* }}} */
+
+/* main content style {{{ */
+.margin_top_40 { margin-top: 2.5em; }
+
+.main_content_container article h1 { font-size: 2.3em; margin-left: 1.6em; padding-top: 0.7em; }
+.main_content_container article h2 { font-size: 1.5em; margin-bottom: 1.7em; text-align: center; }
+.main_content_container article h3 { font-size: 1.2em; }
+.main_content_container { -moz-border-bottom-left-radius: 0.625em; -moz-border-bottom-right-radius: 0.625em; border-bottom-left-radius: 0.625em; border-bottom-right-radius: 0.625em; position: relative; z-index: 1; }
+.main_content_container .main_content { min-height: 27em; padding: 1.3em 2.5em 2.5em; }
+
+.image_conainer { display: inline-block; margin-bottom: 2em; width: 100%; }
+.image_conainer > .image_single_block { float: left; text-align: center; width: 25%; }
+.right_image_container { float: right; margin: 2.8125em 2.5em 0 0.9375em; width: auto; }
+.right_image_container .image_single_block { width: 100%; }
+
+.data_external_container  { margin-top: 1.25em; }
+.data_external_container > div { display: inline-block; vertical-align: middle; }
+.data_info_list_container.data_info_list_conatiner_first { margin-bottom: 1.25em; }
+
+/* modello.html page {{{ */
+.block1 { display: table; margin-bottom: 2em; }
+.block1 > div { display: table-cell; vertical-align: top; }
+.block1 > .left { padding-right: 1em; }
+.block1 > .left img { margin-top: 0.5em; }
+.block1 > .right h3 { border-bottom: 1px solid #D7D7D7; margin-bottom: 0.4em; padding-bottom: 0.3em; }
+.block1 > .right p { margin-left: 0.4em; }
+/* }}} */
+/* }}} */
+
+/* footer style {{{ */
+.footer_container { background-color: #1E4451; height: 6.25em; padding-top: 2.5em; position: relative; top: -2.5em; }
+.footer_list { display: inline-block; margin-top: 1.5625em; width: 100%; }
+.footer_list > li { float: left; text-align: center; width: 33.33%; }
+/* }}} */
