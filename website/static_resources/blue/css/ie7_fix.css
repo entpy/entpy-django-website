@@ -1,0 +1,13 @@
+/* IE7 IE 6 css fix */
+
+/* header style {{{ */
+.logo_section { padding: 1em 0px; }
+.logo_section .logo_container { *display: inline; margin-right: 1.0em;  *vertical-align: middle; }
+.logo_section .entropy_container { *display: inline; *vertical-align: middle; }
+/* header style }}} */
+
+/* index image container fix */
+.image_conainer > .image_single_block  { width: 24%; }
+
+/* contact us and works with us pages fix  */
+.data_external_container > div { *display: inline; *vertical-align: middle; }
