@@ -19,7 +19,7 @@
 
 /* main content style {{{ */
 .display_only_smartphone { display: inline-block; }
-.main_content_container article h1 { border-bottom: 0.08em solid; font-size: 1.6em; margin-bottom: 1em; padding: 0.9em 0 0.4em; text-align: center; }
+.main_content_container article h1 { border-bottom: 0.03em solid; font-size: 1.6em; margin: 0 0.3em 1em; padding: 0.9em 0 0.4em; text-align: center; }
 .main_content_container article h2 { font-size: 1.3em; margin-bottom: 1em; padding: 0 5%; text-align: center; width: 90%; }
 
 /* images block */
