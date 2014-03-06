@@ -11,3 +11,9 @@
 
 /* contact us and works with us pages fix  */
 .data_external_container > div { *display: inline; *vertical-align: middle; }
+
+/* models page fix {{{ */
+.block1 { margin-top: 2.5em; width: 100%; }
+.block1 > .left { float: left; }
+.block1 > .right { float: left; }
+/* }}} */
