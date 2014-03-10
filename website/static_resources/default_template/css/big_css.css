@@ -28,6 +28,7 @@
 
 .data_external_container  { margin-top: 1.25em; }
 .data_external_container > div { display: inline-block; vertical-align: middle; }
+.data_external_container .data_image_container { margin-right: 1.5em;  }
 .data_info_list_container.data_info_list_conatiner_first { margin-bottom: 1.25em; }
 
 /* modello.html page {{{ */
