@@ -39,7 +39,7 @@
 .data_external_container .data_info_list_container { display: inline-block; margin-bottom: 1.3em; width: 100%; text-align: center; }
 .data_external_container .data_info_list_container .separator { display: inline; }
 .data_external_container .data_info_list_container .contact_us_method { display: inline; }
-.data_external_container .data_info_container { margin-top: 0.5em; }
+.data_external_container .data_info_container { display: inline-block; margin-bottom: 3em; margin-top: 0.5em; width: 100%; }
 /* }}} */
 
 /* modello.html page {{{ */
