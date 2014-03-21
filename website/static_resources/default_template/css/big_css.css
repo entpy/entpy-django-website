@@ -32,7 +32,7 @@
 .data_info_list_container.data_info_list_conatiner_first { margin-bottom: 1.25em; }
 
 /* modello.html page {{{ */
-.block1 { display: table; margin-bottom: 2em; }
+.block1 { display: table; margin-bottom: 3em; }
 .block1 > div { display: table-cell; vertical-align: top; }
 .block1 > .left { padding-right: 1em; }
 .block1 > .left img { margin-top: 0.5em; }
