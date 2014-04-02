@@ -13,6 +13,7 @@ ul.ul_styled li {
 }
 
 .display_none { display: none; }
+.width_auto { width: auto!important; }
 
 /* header style {{{ */
 .header {
@@ -45,8 +46,8 @@ ul.ul_styled li {
 /* main content style }}} */
 
 /* footer style {{{ */
-.footer_list span { color: #0e82a2; }
-.footer_list .email_list_element a { color: #0e82a2; }
-.footer_list .list_element_label { font-weight: bold; }
-.footer_list .list_element_top { display: none; }
+.footer_container { background-color: #1E4451; }
+.footer_list > li > div { color: #079CC4; }
+.footer_element_content a { color: #079CC4; text-decoration: none; }
+.powered_by_container { color: #079CC4; }
 /* footer style }}} */

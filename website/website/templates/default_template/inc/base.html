@@ -105,59 +105,49 @@
 				<div class="footer page">
 					{% block footer %}
 					<ul class="footer_list">
-						<!-- email info -->
-						<li class="email_list_element">
-							<span class="list_element_label">
-								Email<span class="colon_container">:</span>
-							</span>
-							<span itemprop="email" class="list_element_value list_element_email">
-								<!-- antispam email -->
-								<script type="text/javascript">
-									//<![CDATA[
-									<!--
-									var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
-									"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
-									" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!88{)rt{y+xx=l;=+;" +
-									"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
-									"\"(9),2\\\"\\\\04\\\\06\\\\01\\\\\\\\06\\\\05\\\\02\\\\\\\\31\\\\04\\\\00\\" +
-									"\\\\\\7X02\\\\\\\\13\\\\0[\\\\WZ35\\\\0K\\\\DAKACmDM6@02\\\\\\\\05\\\\0z\\\\"+
-									"MIOB01\\\\0A\\\\kqu={xv}[vH7w.d}zf.-cWgg|nidmqng27\\\\0]\\\\35\\\\07\\\\01\\"+
-									"\\\\\\\\\\t4\\\\03\\\\\\\\21\\\\07\\\\03\\\\\\\\25\\\\04\\\\03\\\\\\\\N&06\\"+
-									"\\02\\\\02\\\\\\\\25\\\\05\\\\00\\\\\\\\14\\\\00\\\\03\\\\\\\\37\\\\0T\\\\0" +
-									"7\\\\06\\\\00\\\\\\\\13\\\\0I\\\\37\\\\05\\\\02\\\\\\\\20\\\\0r\\\\\\\\\\\\" +
-									"07\\\\0!\\\\17\\\\09\\\\404f5.61v;16\\\\0m\\\\)( 8%fb~26\\\\0R\\\\]V]BG@00\\"+
-									"\\0X\\\\MDQKOA\\\\z(\\\"}fo;n uret}r);+)y+^(i)t(eAodrCha.c(xdeCoarChomfrg.i" +
-									"ntr=So+7;12%=;y++)y29i<f({i+)i+l;i<0;i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i," +
-									"r va){,y(x fontincfu)\\\"\")"                                                ;
-									while(x=eval(x));
-									//-->
-									//]]>
-								</script>
-							</span>
-							<span class="list_element_top">
-								<a href="#" title="Torna in cima alla pagina">Torna su</a>
-							</span>
+						<!-- Info tab -->
+						<li>
+							<div class="footer_element_name">
+								Informazioni
+							</div>
+							<div class="footer_element_separator"></div>
+							<div class="footer_element_content">
+								<span><a href="/faq">FAQ</a></span>
+								<span class="footer_separator">|</span>
+								<span><a href="#">Contatti</a></span>
+								<span class="footer_separator">|</span>
+								<span><a href="/competenze-tecniche">Competenze</a></span>
+							</div>
 						</li>
-						<!-- powered by info -->
-						<li class="copyright_list_element">
-							<span class="list_element_label">
-								Copyright<span class="colon_container">:</span>
-							</span>
-							<span class="list_element_value">
-								<small>2014 Entpy Software</small>
-							</span>
+						<!-- Entpy tab -->
+						<li>
+							<div class="footer_element_name">
+								Entpy
+							</div>
+							<div class="footer_element_separator"></div>
+							<div class="footer_element_content">
+								<span><a href="/modello">Sviluppo</a></span>
+								<span class="footer_separator">|</span>
+								<span><a href="/portfolio">Portfolio</a></span>
+							</div>
 						</li>
-						<!-- location info -->
-						<li class="location_list_element">
-							<span class="list_element_label">
-								Location<span class="colon_container">:</span>
-							</span>
-							<span class="list_element_value">
-								Torino, Italia
-							</span>
+						<!-- Social tab -->
+						<li>
+							<div class="footer_element_name">
+								Social
+							</div>
+							<div class="footer_element_separator"></div>
+							<div class="footer_element_content">
+								<span><a href="#">Twitter</a></span>
+								<span class="footer_separator">|</span>
+								<span><a href="#">GitHub</a></span>
+							</div>
 						</li>
 					</ul>
 					{% endblock footer %}
+				</div>
+				<div class="powered_by_container">
+					<span><b>2014</b> Proudly powered by <b>Entpy Software</b></span>
 				</div>
 			</div>	
 		</footer>
