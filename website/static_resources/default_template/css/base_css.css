@@ -14,6 +14,7 @@ ul.ul_styled li {
 
 .display_none { display: none; }
 .width_auto { width: auto!important; }
+.vertical_align_middle { vertical-align: bottom!important; }
 
 /* header style {{{ */
 .header {
@@ -44,6 +45,12 @@ ul.ul_styled li {
 .email_container { font-weight: bold; }
 .image_conainer > .image_single_block a, .image_conainer > .image_single_block a:hover { color: transparent;  }
 /* main content style }}} */
+
+/* competenze-tecniche.html page {{{ */
+.skills_container .technical_competencies_list { display: inline-block; }
+.skills_container .technical_competencies_list dt { border-bottom: 1px solid #83C61A; font-weight: bold; margin-bottom: 0.9625em; padding-bottom: 0.225em; }
+.skills_container .technical_competencies_list dd { color: #333333; margin-bottom: 0.1875em; }
+/* }}} */
 
 /* footer style {{{ */
 .footer_container { background-color: #1E4451; }
