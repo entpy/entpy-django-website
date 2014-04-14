@@ -1,20 +1,20 @@
 body { font: normal 16px/1 Helvetica, Arial, sans-serif; -webkit-text-size-adjust: 100%; }
-body, .footer_container { background-color: #1e4451;  }
+body, .footer_container { background-color: #09252E;  }
 .more_readable_container { color: #333; letter-spacing: 0.01em; line-height: 1.9; }
 b, .bold { font-weight: bold; }
 ul.ul_styled {
 	list-style: disc outside none;
-	margin: 15px 0;
-	padding-left: 15px;
+	margin: 0.9375em 0;
+	padding-left: 0.9375em;
 }
 
 ul.ul_styled li {
-	margin: 7px 0px;
+	margin: 0.4666em 0px;
 }
 
 .display_none { display: none; }
 .width_auto { width: auto!important; }
-.vertical_align_middle { vertical-align: bottom!important; }
+.vertical_align_middle { vertical-align: middle!important; }
 
 /* header style {{{ */
 .header {
@@ -38,7 +38,7 @@ ul.ul_styled li {
 .main_content_container article h3 { color: #079cc4; }
 .main_content_container article a, .image_conainer > .image_single_block a *, .text1 { color: #079cc4; }
 .main_content_container article a:hover, .image_conainer > .image_single_block a:hover * { color: #1E4451; text-decoration: underline; }
-.main_content_section { background-color: #079cc4; }
+.main_content_section { background-color: #0488A6; }
 .main_content_container { background-color: #efefef; }
 .no_padding_bottom { padding-bottom: 0!important; }
 .no_padding_top { padding-top: 0!important; }
@@ -52,8 +52,13 @@ ul.ul_styled li {
 .skills_container .technical_competencies_list dd { color: #333333; margin-bottom: 0.1875em; }
 /* }}} */
 
+/* portfolio.html pages {{{ */
+.block1.faq_block .right h3 { display: table; width: 100%; }
+.block1.faq_block .right h3 span { display: table-cell; vertical-align: middle; }
+.block1.faq_block .right h3 .left { padding-right: 0.7em; width: 3em; }
+/* }}} */
+
 /* footer style {{{ */
-.footer_container { background-color: #1E4451; }
 .footer_list > li > div { color: #079CC4; }
 .footer_element_content a { color: #079CC4; text-decoration: none; }
 .powered_by_container { color: #079CC4; }

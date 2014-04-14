@@ -54,11 +54,16 @@
 .block1 > .right h3 span:last-child { vertical-align: text-top; }
 /* }}} */
 
+/* faq.html pages {{{ */
+.block1.faq_block > .right { margin-bottom: 3em; }
+.block1.faq_block > .right h3 { margin-bottom: 0.3em; }
+/* }}} */
+
 /* footer style {{{ */
 .footer_list { margin-top: 3em; text-align: center; }
 .footer_list li { margin-bottom: 1.8em; }
 .footer_list li .footer_element_name { font-size: 0.9em; font-weight: bold; }
 .footer_list li .footer_element_separator { margin: 0 auto 0.5em; width: 10em; }
 .footer_list li .footer_element_content a { font-size: 1.1em; text-decoration: underline; }
-.powered_by_container { border-top: 2px dashed; margin-bottom: 1em; margin-top: 5em; padding-left: 1em; padding-right: 1em; padding-top: 2em; text-align: center; }
+.powered_by_container { margin-bottom: 1.5em; margin-top: 4em; padding-left: 1em; padding-right: 1em; padding-top: 2em; text-align: center; }
 /* }}} */
