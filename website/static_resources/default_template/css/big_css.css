@@ -7,7 +7,7 @@
 .logo_section .logo_container { display: table-cell; height: 4.625em; vertical-align: middle; width: 20%; }
 .logo_section .entropy_container { display: table-cell; text-align: center; vertical-align: middle; width: 80%; }
 .logo_section .entropy_container img { height: 3em; width: auto; }
-.logo_container img { height: 2.5em; width: auto; }
+.logo_container img { height: 2.6em; width: auto; }
 .navigation_list { display: inline-block; height: 1.5625em; margin-top: 0.8625em; }
 .navigation_list > li { float: left; text-align: center; padding-left: 1.5em; padding-right: 1.5em; }
 .navigation_list > li a { font-size: 0.8em; text-decoration: none; }
@@ -35,8 +35,8 @@
 .description_container2 { float: right; width: 55%; }
 
 .skills_container { display: table; width: 100%; }
-.skills_container > div { display: table-cell; }
-.skills_container .left { text-align: center; vertical-align: top; width: 55%; }
+.skills_container > div { display: table-cell; float: left; }
+.skills_container .left { padding-top: 2em; text-align: center; vertical-align: top; width: 55%; }
 .skills_container .right { width: 45%; }
 .skills_container .left .skills_image { height: auto; max-width: 18.75em; width: 100%; }
 .skills_container .technical_competencies_list { margin-left: 1em; }
