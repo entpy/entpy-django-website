@@ -50,6 +50,7 @@ ul.ul_styled li {
 .skills_container .technical_competencies_list { display: inline-block; }
 .skills_container .technical_competencies_list dt { border-bottom: 1px solid #83C61A; font-weight: bold; margin-bottom: 0.9625em; padding-bottom: 0.225em; }
 .skills_container .technical_competencies_list dd { color: #333333; margin-bottom: 0.1875em; }
+.skills_container .left .skills_image { height: auto; max-width: 18.75em; width: 100%; }
 /* }}} */
 
 /* portfolio.html pages {{{ */

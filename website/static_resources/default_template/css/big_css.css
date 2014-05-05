@@ -38,7 +38,6 @@
 .skills_container > div { display: table-cell; float: left; }
 .skills_container .left { padding-top: 2em; text-align: center; vertical-align: top; width: 55%; }
 .skills_container .right { width: 45%; }
-.skills_container .left .skills_image { height: auto; max-width: 18.75em; width: 100%; }
 .skills_container .technical_competencies_list { margin-left: 1em; }
 .skills_container .technical_competencies_list dd { margin-left: 0.925em; }
 /* }}} */
