@@ -26,6 +26,8 @@
 
 .image_conainer { display: inline-block; margin-bottom: 2em; width: 100%; }
 .image_conainer > .image_single_block { float: left; text-align: center; width: 25%; }
+.image_conainer > .image_single_block img { margin-bottom: 8px; padding: 5px; }
+.image_conainer > .image_single_block img:hover { border-radius: 25px; box-shadow: 0 0 4px 3px #e4e4e4; }
 .right_image_container { float: right; margin: 0 2.5em 0 0.9375em; width: auto; }
 .right_image_container .image_single_block { width: 100%; }
 

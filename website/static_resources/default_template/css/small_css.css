@@ -2,11 +2,11 @@
 
 /* header style {{{ */
 .header { box-shadow: none;  }
-.logo_container { margin: 1em 0; text-align: center; }
+.logo_container { padding: 1em 0; text-align: center; }
 .logo_container img { height: 3em; width: auto; }
 .entropy_container { display: none; }
 
-.navigation_section { background-color: transparent; border-top: 0.3em solid  #079CC4; padding: 0.5em 0; }
+.navigation_section { background-color: transparent; border-top: 0.2em solid #09252e; padding: 0.5em 0; }
 .navigation_list { text-align: center; }
 .navigation_list li { padding: 0.4em 0; }
 .navigation_list li a:hover,
