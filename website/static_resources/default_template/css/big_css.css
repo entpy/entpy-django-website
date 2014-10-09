@@ -6,7 +6,7 @@
 .header { border-bottom: 1px solid #009800; }
 .logo_section .logo_container { display: table-cell; height: 4.625em; vertical-align: middle; width: 20%; }
 .logo_section .entropy_container { display: table-cell; text-align: center; vertical-align: middle; width: 80%; }
-.logo_section .entropy_container img { height: 3em; width: auto; }
+.logo_section .entropy_container img { height: 3.8em; width: auto; }
 .logo_container img { height: 2.6em; width: auto; }
 .navigation_list { display: inline-block; height: 1.5625em; margin-top: 0.8625em; }
 .navigation_list > li { float: left; text-align: center; padding-left: 1.5em; padding-right: 1.5em; }
