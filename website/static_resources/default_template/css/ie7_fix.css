@@ -14,6 +14,8 @@
 
 /* competenze tecniche page fix */
 .skills_container > div { float: left; }
+.skills_container > .left { width: 25em; }
+.skills_container > .right { width: 21.875em; }
 
 /* faq page fix  */
 .block1.faq_block .right h3 span { *vertical-align: middle; }

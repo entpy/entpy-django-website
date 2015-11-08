@@ -1,0 +1,28 @@
+{% extends "inc/base.html" %}
+{% load staticfiles %}
+{% block title %}
+	<title>Stai cercando qualcosa di nuovo? | Contest | Entpy Software House Torino</title>
+{% endblock %}
+{% block description %}
+	<meta name="description" content="Entpy contest: stai cercando qualcosa di nuovo? Hai fatto centro!">
+{% endblock %}
+{% block content %}
+	<h1>Entpy contest</h1>
+	<div class="main_content">
+		<h2>Stiamo parlando di innovazione.<br />Mettere in comunicazione il <b>futuro</b> con il <b>presente</b>...tieniti forte!</h2>
+		<div class="image_conainer right_image_container">
+			<div class="image_single_block image_single_block_centered">
+				<figure>
+					<img width="200" height="310" src="{% static "img/icons/icon_filosofia.png" %}" alt="Filosofia">
+				</figure>
+			</div>
+		</div>
+		<div class="description_container margin_top_40">
+			<span itemprop="description" class="more_readable_container">
+				<b>Come funziona?</b> Trova i volantini del contest, sopra di essi è presente un codice alfanumerico segreto (fino a che non lo scopri). Recati a questa pagina:<br /><span class="centered_span"><a href="http://contest.entpy.com" target="_blank">contest.entpy.com</a></span>Ma attenzione: i varchi spazio-temporali sono spesso imprevedibili.<br />
+				Usali a tuo rischio e pericolo!
+				Non siamo stati autorizzati nel fornire ulteriori dettagli su quello che potrebbe succedere. Se hai bisogno di delucidazioni a riguardo scrivici a {contest_mail}.
+			</span>
+		</div>
+	</div>
+{% endblock %}

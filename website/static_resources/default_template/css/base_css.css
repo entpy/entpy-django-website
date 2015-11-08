@@ -46,6 +46,7 @@ ul.ul_styled li {
 .no_padding_top { padding-top: 0!important; }
 .email_container { font-weight: bold; }
 .image_conainer > .image_single_block a, .image_conainer > .image_single_block a:hover { color: transparent;  }
+.centered_span { display: block; text-align: center; }
 /* main content style }}} */
 
 /* competenze-tecniche.html page {{{ */
